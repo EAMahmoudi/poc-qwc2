@@ -1,16 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Index from './qwc2-demo-app/index';
+import Qwc2 from  './qwc2-demo-app/js/app';
 
 // eslint-disable-next-line new-cap
 
-const Demo = () =>{
-    return <h1>Your CRA APP  HERE</h1>;
+const CRA = () =>{
+    return  (
+        <div>
+            <h1> Application CRA  </h1>
+            <div>
+                <Qwc2/>
+            </div>
+        </div>
+    );
 };
 
-// eslint-disable-next-line new-cap
-Index(Demo);
-ReactDOM.render(
-    <Demo/>,
-    document.getElementById('app')
-);
+Index(CRA);
