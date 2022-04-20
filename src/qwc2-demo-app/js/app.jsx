@@ -12,10 +12,10 @@ import StandardApp from 'qwc2/components/StandardApp';
 import appConfig from './appConfig';
 import '../icons/build/qwc2-icons.css';
 
-function App() {
+function Qwc2() {
     return (
         <StandardApp appConfig={appConfig}/>
     );
 }
 
-export default App;
+export default Qwc2;

@@ -8,14 +8,13 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from  './js/app';
 
-const Index = (App2) => {
+const Index = (CRA) => {
    return  ReactDOM.render(
-                <App/>
+                <CRA/>
         ,
-        document.getElementById('demo')
+        document.getElementById('root')
     );
 }
 
-export  default Index
+export default Index
